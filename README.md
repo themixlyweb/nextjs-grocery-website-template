@@ -120,7 +120,7 @@ npm run build     # Build for production
 <p>👉 <a href="https://themixly.com/themes/grocery-website-react-nextjs-template/" target="_blank">Go Premium – Available Exclusively on Themixly</a></p>
 
 <h2>📝 License</h2>
-<p>This template is licensed under the <a href="https://github.com/themixlyweb/react-grocery-website-template/blob/main/LICENSE" target="_blank">MIT License</a>.<br/>
+<p>This template is licensed under the <a href="https://github.com/themixlyweb/nextjs-grocery-website-template/blob/main/LICENSE" target="_blank">MIT License</a>.<br/>
 You may use this version for personal and educational purposes.</p>
 
 <h2>📢 Support & Contributions</h2>
