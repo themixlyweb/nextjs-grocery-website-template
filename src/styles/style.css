@@ -1,0 +1,165 @@
+/* ==========================================================================
+   Theme Colors and Utilities
+   ========================================================================== */
+   .text-main {
+    color: #133b61;
+  }
+  .text-second,
+  .btn-bg {
+    color: #66920e;
+  }
+  .primary-bg {
+    background-color: #55aa70 !important;
+  }
+  .primary-bg-soft {
+    background-color: #ddede2;
+  }
+  .secondary-bg {
+    background-color: #1563ab;
+  }
+  .bg-heading {
+    background-color: #b3c987;
+  }
+  .form-bg {
+    background-color: #d9e4c3;
+  }
+  .bg-sections {
+    background-color: #e1e9cf;
+  }
+  .footer-bg {
+    background-color: #133b61;
+  }
+  .gradient {
+    background: linear-gradient(180deg, #e1e9cf, rgba(255, 255, 255, 0) 100%);
+  }
+  .gradient1 {
+    background: linear-gradient(180deg, #b8c5d0, rgba(255, 255, 255, 0) 100%);
+  }
+  .text-justify {
+    text-align: justify;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  /* ==========================================================================
+     Typography & Headings
+     ========================================================================== */
+  section h2 {
+    font: normal normal bold 44px/44px;
+    color: transparent;
+    background-color: #133b61;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* ==========================================================================
+     Navigation Styling
+     ========================================================================== */
+  .nav-item .nav-link,
+  .navbar-other {
+    padding: 1.2em;
+  }
+  .navbar-expand-lg.transparent:not(.fixed) {
+    padding: 0;
+  }
+  .dropdown-menu {
+    min-width: auto;
+  }
+  .nav-link:hover,
+  .nav-link:focus,
+  .navbar-nav .nav-link.activate,
+  .dropdown-item.activate,
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    color: #1563ab;
+  }
+  .nav-link:hover,
+  .nav-link:focus {
+    border-bottom: 2px solid #fff;
+  }
+  .fixed .nav-link:hover,
+  .fixed .nav-link:focus {
+    color: #133b61;
+    border-bottom: 2px solid #66920e;
+  }
+  .not-active:hover {
+    color: #133b61;
+  }
+  
+  /* ==========================================================================
+     Offcanvas Navigation
+     ========================================================================== */
+  .offcanvas-nav {
+    background-color: #fff;
+  }
+  .offcanvas-nav .navbar-nav .nav-link {
+    color: #000;
+  }
+  .offcanvas-nav .navbar-nav .nav-link:hover,
+  .offcanvas-footer .link:hover {
+    color: #133b61;
+    border-bottom: 1px solid #66920e;
+  }
+  .offcanvas-footer .link {
+    color: #000;
+  }
+  .offcanvas-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .offcanvas-logo img {
+    max-height: 50px;
+  }
+  .offcanvas-header.sticky {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-items-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .offcanvas {
+    background-color: #133b61;
+  }
+  
+  /* ==========================================================================
+     Hero, Swiper, Carousels
+     ========================================================================== */
+  .hero .swiper-slide {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .clients .swiper-wrapper {
+    align-items: center;
+  }
+  .carousal-tab .active {
+    background-color: #66920e;
+    color: #fff;
+  }
+  .carousal-tab .not-active {
+    border: 2px solid #66920e;
+  }
+  
+  /* ==========================================================================
+     Cards, Accordions & Widgets
+     ========================================================================== */
+  .card {
+    transition: 0.3s all;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .widget ul li a:hover {
+    color: #133b61;
+    text-decoration: underline;
+  }
+  

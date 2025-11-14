@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Responsive Styles for Navigation, Swiper Buttons, Image Elements, and Layout
+   ========================================================================== */
+
+/* ---------------------- */
+/* ≥ 992px (Desktop+)     */
+/* ---------------------- */
+@media (min-width: 992px) {
+  .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .border-radius-clip {
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .map {
+    max-width: 250px;
+  }
+}
+
+/* ---------------------- */
+/* ≤ 992px (Tablet)       */
+/* ---------------------- */
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .nav-item .nav-link {
+    padding: 0.4rem;
+  }
+
+  .about-image {
+    height: 50vh;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+
+  .border-radius-clip {
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+  }
+
+  .offcanvas {
+    background-color: #133b61;
+  }
+}
+
+/* ---------------------- */
+/* ≤ 768px (Phablet)      */
+/* ---------------------- */
+@media (max-width: 768px) {
+  .about-image {
+    height: 50vh;
+  }
+
+  .top-bar {
+    display: none;
+  }
+
+  .navbar-clone {
+    top: 0;
+  }
+
+  .sticky-wrapper {
+    position: relative;
+  }
+}
