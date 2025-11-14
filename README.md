@@ -18,7 +18,7 @@
 <h2>🔗 Live Preview & Download</h2>
 <ul>
   <li>🚀 <a href="https://themixly.com/preview/2056/grocery-website-react-nextjs-template/" target="_blank">Live Demo – Feastly Template</a></li>
-  <li>📦 <a href="https://github.com/themixlyweb/react-grocery-website-template" target="_blank">Download from GitHub (Free)</a></li>
+  <li>📦 <a href="https://github.com/themixlyweb/nextjs-grocery-website-template" target="_blank">Download from GitHub (Free)</a></li>
 </ul>
 
 <h2>🧩 Feature Comparison: GitHub Free vs Themixly Pro</h2>
